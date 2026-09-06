@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(simd_matrix_core CXX)
+set(CMAKE_CXX_STANDARD 20)
+add_library(simd_matrix INTERFACE)
+target_include_directories(simd_matrix INTERFACE include)
